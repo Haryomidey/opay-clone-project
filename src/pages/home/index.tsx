@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import SplashScreen from "@/components/SplashScreen";
-// import Default from "@/components/Default";
+import Default from "@/components/Default";
 import BottomNav from "@/components/BottomNav";
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
     return (
         <main>
             {hideSplah && <SplashScreen />}
-            {/* {!hideSplah && <Default />} */}
+            {!hideSplah && <Default />}
             {!hideSplah && <BottomNav />}
         </main>
     )
