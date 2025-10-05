@@ -14,8 +14,10 @@ const Home = () => {
     return (
         <main>
             {hideSplah && <SplashScreen />}
-            {!hideSplah && <Default />}
-            {!hideSplah && <BottomNav />}
+            <div className="max-w-md mx-auto">
+                {!hideSplah && <Default />}
+                {!hideSplah && <BottomNav />}
+            </div>
         </main>
     )
 }

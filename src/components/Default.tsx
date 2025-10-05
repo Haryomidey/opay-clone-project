@@ -18,7 +18,7 @@ const HomeScreen = () => {
         amount.toLocaleString("en-NG", { style: "currency", currency: "NGN", maximumFractionDigits: 2 });
 
     return (
-        <div className="w-full min-h-screen bg-[#F7F8FA] pb-28 font-sans">
+        <div className="w-full h-[calc(100vh-75px)] overflow-y-scroll bg-[#F7F8FA] pb-5 scrollbar-none">
             <div className="flex items-center justify-between px-4 pt-4">
                 <div className="flex items-center gap-3">
                     <div className="w-10 h-10 rounded-full bg-black flex items-center justify-center relative">

@@ -9,3 +9,7 @@
   --color-primary: #00B050;
   --color-secondary: "#060685";
 }
+
+.scrollbar-none::-webkit-scrollbar{
+  display: none;
+}
